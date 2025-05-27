@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotes of Chaos & Wisdom</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-gray-100">
+
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-blue-700 to-blue-900 shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-3xl font-bold tracking-wide">Chaos & Wisdom</h1>
+      <nav class="space-x-6 text-sm">
+        <a href="#home" class="hover:underline text-gray-200">Home</a>
+        <a href="about.html" class="hover:underline text-gray-200">About</a>
+        <a href="#categories" class="hover:underline text-gray-200">Categories</a>
+        <a href="#featured" class="hover:underline text-gray-200">Quotes</a>
+        <a href="#submit" class="hover:underline text-gray-200">Submit</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="text-center py-20 px-6 bg-gray-900 bg-gradient-to-t from-gray-900 to-gray-800">
+    <h2 class="text-5xl font-bold leading-tight mb-4">Timeless Thoughts. Infinite Insight.</h2>
+    <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
+      Curated chaos. Beautiful wisdom. Explore the philosophical echoes of existence — one quote at a time.
+    </p>
+    <a href="#featured" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition">Explore Quotes</a>
+  </section>
+
+  <!-- Rotating Quote -->
+  <section class="text-center py-12 px-6 bg-gray-900">
+    <h3 class="text-2xl font-semibold text-blue-400 mb-6">Daily Rotating Quote</h3>
+    <div id="rotating-quote" class="max-w-3xl mx-auto text-xl italic text-gray-200 transition-opacity duration-1000 opacity-100">
+      “The world is full of magical things patiently waiting for our wits to grow sharper.”  
+      <div class="mt-4 text-sm text-gray-400">– Bertrand Russell</div>
+    </div>
+  </section>
+
+  <!-- Featured Quotes -->
+  <section id="featured" class="max-w-6xl mx-auto py-16 px-6">
+    <h3 class="text-3xl font-semibold mb-10 text-blue-400 text-center">Featured Quotes</h3>
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="italic text-lg">“Chaos is found in greatest abundance wherever order is being sought.”</p>
+        <span class="block mt-4 text-right text-sm text-gray-400">– Terry Pratchett</span>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="italic text-lg">“The only true wisdom is in knowing you know nothing.”</p>
+        <span class="block mt-4 text-right text-sm text-gray-400">– Socrates</span>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="italic text-lg">“Sometimes it’s the people no one imagines anything of who do the things no one can imagine.”</p>
+        <span class="block mt-4 text-right text-sm text-gray-400">– Alan Turing</span>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="italic text-lg">“Nature is the antidote for the chaos inside of us.”</p>
+        <span class="block mt-4 text-right text-sm text-gray-400">– Michael Bassey Johnson</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Categories -->
+  <section id="categories" class="bg-gray-800 py-16 px-6 mt-12">
+    <h3 class="text-3xl font-semibold mb-10 text-blue-300 text-center">Categories of Thought</h3>
+    <div class="max-w-5xl mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-3 text-gray-200">
+      <div class="bg-gray-700 p-6 rounded-lg hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Chaos Theory</h4>
+        <p class="text-sm text-gray-300">Quotes exploring randomness, complexity, and nonlinear thinking.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Ancient Wisdom</h4>
+        <p class="text-sm text-gray-300">Insights from the Stoics, Greeks, and sages of the past.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Modern Minds</h4>
+        <p class="text-sm text-gray-300">Contemporary thinkers, authors, scientists, and innovators.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Fictional Brilliance</h4>
+        <p class="text-sm text-gray-300">Profound lines from movies, books, and imaginary worlds.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Spirituality & Metaphysics</h4>
+        <p class="text-sm text-gray-300">Mystic, religious, and existential reflections.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Absurdity & Paradox</h4>
+        <p class="text-sm text-gray-300">Quotes that challenge reason and dance with contradiction.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Submission Form -->
+  <section class="bg-gray-800 py-16 px-6" id="submit">
+    <h3 class="text-3xl font-semibold mb-8 text-center text-blue-300">Submit a Quote</h3>
+    <form class="max-w-2xl mx-auto space-y-6" action="mailto:submit@chaoswisdom.com" method="POST" enctype="text/plain">
+      <div>
+        <label class="block mb-2 text-sm text-gray-300">Your Name</label>
+        <input type="text" name="name" required class="w-full p-3 rounded bg-gray-700 border border-gray-600 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      </div>
+      <div>
+        <label class="block mb-2 text-sm text-gray-300">Quote</label>
+        <textarea name="quote" rows="4" required class="w-full p-3 rounded bg-gray-700 border border-gray-600 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      </div>
+      <div>
+        <label class="block mb-2 text-sm text-gray-300">Source (Book, Person, or Character)</label>
+        <input type="text" name="source" class="w-full p-3 rounded bg-gray-700 border border-gray-600 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      </div>
+      <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded font-semibold transition">Submit Quote</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-900 text-sm text-gray-500 border-t border-gray-700">
+    &copy; 2025 Quotes of Chaos & Wisdom. All rights reserved.
+  </footer>
+
+  <!-- Quote Rotator Script -->
+  <script>
+    const quotes = [
+      { text: "Chaos is not a pit. Chaos is a ladder.", author: "Petyr Baelish (Game of Thrones)" },
+      { text: "In the middle of difficulty lies opportunity.", author: "Albert Einstein" },
+      { text: "To attain knowledge, add things every day. To attain wisdom, remove things every day.", author: "Lao Tzu" },
+      { text: "The truth is rarely pure and never simple.", author: "Oscar Wilde" },
+      { text: "Your assumptions are your windows on the world. Scrub them off every once in a while.", author: "Isaac Asimov" }
+    ];
+
+    let index = 0;
+    const container = document.getElementById("rotating-quote");
+
+    function rotateQuote() {
+      container.style.opacity = 0;
+      setTimeout(() => {
+        const quote = quotes[index];
+        container.innerHTML = `"${quote.text}"<div class="mt-4 text-sm text-gray-400">– ${quote.author}</div>`;
+        container.style.opacity = 1;
+        index = (index + 1) % quotes.length;
+      }, 600);
+    }
+
+    setInterval(rotateQuote, 6000);
+  </script>
+
+</body>
+</html>
